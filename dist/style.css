@@ -1,0 +1,168 @@
+h1 {
+  font-size: 80px;
+  font-family: "Steelfishy";
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-family: "Steelfishy";
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: 'Steelfishy';
+  src: url(steelfishy/steelfisheb.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 0 solid #d3d3d3;
+  height: 0;
+  top: 200px;
+  left: 100px;
+}
+
+#mydivheader {
+  padding: 5px;
+  cursor: move;
+  z-index: 10;
+  background-color: transparent;
+  color: #fff;
+}
+
+#newsimg {
+  float: left;
+}
+
+#icon1 {
+  position: absolute;
+  width: 140px;
+}
+
+.container-fluid {
+  margin-bottom: 100px;
+}
+
+.container {
+  font-family: 'Steelfishy';
+  font-weight: 100;
+  font-stretch: expanded;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  position: relative;
+  display: block;
+  outline: none;
+  width: 400px;
+  top: 0px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #333;
+}
+
+.text {
+  text-align: left;
+  word-break: break-all;
+  width: 400px;
+  margin: 10px;
+}
+
+.auto_height {
+  /* CSS */
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+}
+
+.orangebtn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  background: #fd672d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: center;
+}
+
+.orangebtn:hover {
+  background: #cf5e02;
+  text-decoration: none;
+}
+
+.whitebtn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.whitebtn:hover {
+  background: #d1d1d1;
+  text-decoration: none;
+}
+
+.slider {
+  display: block;
+}
+
+#maintext {
+  line-height: 1.05;
+  font-size: 50px;
+  text-transform: uppercase
+}
+
+#bottomtext {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: 50;
+  font-size=15px;
+}
+
+#display-image {
+  top: 10px;
+  left: 200px;
+  width: 432px;
+  height: 540px;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto 0 auto;
+}
+
+#overlay-img {
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  margin-top: 150px;
+}
+
+#image-input {
+  margin: 0 auto 0 auto;
+  color: transparent;
+  width: 70px;
+}
+
+#bottomhr {
+  width: 432px;
+}
+
+.input[type="file"] {
+  display: block;
+}

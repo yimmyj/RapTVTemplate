@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RapTV Post Generator</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="images/drizzy.png">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <!DOCTYPE html>
+  <html>
+
+  <body style="background-color: black">
+
+    <h1>
+      <font color="white">RAP</font>
+      <font color="#fd672d">TV </font>
+      <font color="white"> POST </font>
+      <font color="#fd672d">TEMPLATE </font>
+    </h1>
+
+    <img id="icon1" src="images/icon1.png" />
+
+    <h2> Select image:
+      <input type="file" id="image-input" title="" accept="image/jpeg, image/png, image/jpg">
+    </h2>
+
+
+
+
+
+    <div id="mydiv">
+      <div id="mydivheader"><img src="images/NEWS.png" style="height:20px;margin-left:15px;" /></div>
+
+      <div id="ct" class="container">
+        <div id="maintext" class="text" contenteditable=true>
+          <font color="white">click here and edit</font>
+        </div>
+        <div id="bottomtext" class="text" style="font-family: Arial;font-style:italic;font-weight:50;font-size=20px;" contenteditable=true>
+          <font color="white">Y'all rockin with it!?</font>
+        </div>
+        <img id="bottomhr" src="images/bottomhr.png" />
+
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col-6">
+          <div id="display-image"><img id="overlay-img" src="images/overlay.png" /></div>
+          <div id="overlay-img"></div>
+        </div>
+
+        <div class="col">
+
+          <h2 style="text-align:left">Font Color</h2>
+
+          <button class="orangebtn" onclick="newText('#fd672d')"></button>
+          <button class="whitebtn" onclick="newText('white')"></button>
+
+          <h2 style="text-align:left">Font Size</h2>
+          <input class="slider" type="range" min="50" max="80" value="0" id="slider" step="1">
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+
+  </html>
+  <!-- partial -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

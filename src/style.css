@@ -1,0 +1,50 @@
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  height: 0px;
+}
+
+#mydivheader {
+  padding: 5px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+.container {
+  width: 100px;
+  height: 150px;
+  background: #eee;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+    background: rgba(255,255,255,0);
+  font-size: 30px;
+  border: none;
+  position: relative;
+  display: block;
+  outline: none;
+  width: 400px;
+  height: 30p;
+  top: 0px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #333;
+}
+
+.text {
+  text-align: center;
+  word-break: break-all;
+  margin: 10px;
+}
+
+textarea{  
+
+}
+
+.auto_height { /* CSS */
+  width: 100%;
+}
